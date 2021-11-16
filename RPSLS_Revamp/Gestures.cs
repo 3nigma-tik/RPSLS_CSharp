@@ -6,14 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLS_Revamp
 {
-    internal class Game
+    internal class Gestures
     {
-
-
-
-        public void Run()
-        {
-
-        }
     }
 }

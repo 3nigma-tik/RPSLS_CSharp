@@ -6,22 +6,20 @@ using System.Threading.Tasks;
 
 namespace RPSLS_Revamp
 {
-    internal class Robot
+    internal class Hooman
     {
         public string name;
         public string gesture;
 
-        public void ChooseGesture()
+
+
+        public Hooman(string nameOfHooman, string gesturePicked)
         {
-
-        }
-
-
-        public Robot(string nameOfRobot, string gesturePicked)
-        {
-            name = nameOfRobot;
+            name = nameOfHooman;
             gesture = gesturePicked;
         }
 
+
     }
+
 }
