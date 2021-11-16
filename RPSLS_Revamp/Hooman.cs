@@ -9,7 +9,7 @@ namespace RPSLS_Revamp
     internal class Hooman
     {
         public string name;
-        public string gesture;
+        public string handGesture;
 
         public void ChooseGesture()
         {
@@ -24,7 +24,7 @@ namespace RPSLS_Revamp
         public Hooman(string nameOfHooman, string gesturePicked)
         {
             name = nameOfHooman;
-            gesture = gesturePicked;
+            handGesture = gesturePicked;
         }
 
 

@@ -8,9 +8,6 @@ namespace RPSLS_Revamp
 {
     internal class Game
     {
-
-
-
         public void Run()
         {
 

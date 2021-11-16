@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string[] availableGestures = { "rock", "paper", "scissors", "lizard", "spock" };
+
+            Hooman MasterChief = new Hooman("Master Chief", ); //<<randomly generated hand gesture
+            Robot Hal = new Robot("Hal", );//<<randomly generated hand gesture
             Game game = new Game();
             game.Run();
 

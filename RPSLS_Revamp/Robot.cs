@@ -13,7 +13,9 @@ namespace RPSLS_Revamp
 
         public void ChooseGesture(string availableGestures)
         {
-
+            Console.WriteLine("pick a gesture!");
+            string handGesture = Console.ReadLine();
+            Console.WriteLine("You threw a " + availableGestures);
         }
 
 
