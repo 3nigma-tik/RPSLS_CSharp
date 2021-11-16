@@ -11,7 +11,15 @@ namespace RPSLS_Revamp
         public string name;
         public string gesture;
 
+        public void ChooseGesture()
+        {
 
+        }
+
+        public void IncreaseScore()
+        {
+            
+        }
 
         public Hooman(string nameOfHooman, string gesturePicked)
         {

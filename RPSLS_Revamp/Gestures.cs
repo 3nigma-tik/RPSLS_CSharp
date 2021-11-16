@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace RPSLS_Revamp
 {
-    internal class Gestures
+    class Gestures
     {
+        public string[] availableGestures = { "rock", "paper", "scissors", "lizard", "spock" };
+        public string[] playerGesture;
+
+
+        public Gestures(string[] availableGestures)
+        {
+            playerGesture = availableGestures;
+        }
+     
+
+
+
+
+
     }
 }

@@ -9,9 +9,9 @@ namespace RPSLS_Revamp
     internal class Robot
     {
         public string name;
-        public string gesture;
+        public string handGesture;
 
-        public void ChooseGesture()
+        public void ChooseGesture(string availableGestures)
         {
 
         }
@@ -20,7 +20,7 @@ namespace RPSLS_Revamp
         public Robot(string nameOfRobot, string gesturePicked)
         {
             name = nameOfRobot;
-            gesture = gesturePicked;
+            handGesture = gesturePicked;
         }
 
     }
